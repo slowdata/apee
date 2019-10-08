@@ -1,27 +1,21 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Container from "../components/container"
+import styles from "./convocatoria.module.css"
 
 const ConvocatoriaPage = ({ data }) => {
   const {
     allMarkdownRemark: { edges },
   } = data
-  const [node] = edges
-  console.log(node)
+  const [first] = edges
+  const { node } = first
+  console.log("..", node.html)
 
   return (
-    <Container style={{ marginTop: 50 }}>
-      <div className="ui two column centered grid">
-        <div className="column">
-          <div className="ui card">
-            <div className="content">
-              <h1 className="ui aligned center green header">Coisas</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Container>
+    <div className={styles.container}>
+      <h1 className={styles.title}>Convocatória</h1>
+      <section dangerouslySetInnerHTML={{ __html: node.html }}></section>
+    </div>
   )
 }
 

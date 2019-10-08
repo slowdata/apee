@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  margin: 20px 200px;
+  border: 1.5px solid green;
+  border-radius: 5px;
+}
+
+.title {
+  color: green;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 100px;
+  text-align: justify;
+}
+
+section li {
+  margin: 10px 30px;
+}
+
+@media print {
+  .title {
+    font-size: 2rem;
+  }
+  .container {
+    margin: 5px 5px;
+  }
+  section {
+    margin: 20px 50px;
+  }
+}
