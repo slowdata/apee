@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 65px;
-  margin: 20px 200px;
+  margin: 20px 160px;
   border: 1.5px solid green;
   border-radius: 5px;
 }
@@ -35,5 +35,45 @@ section li {
   }
   section {
     margin: 20px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+  .container {
+    margin: 5px;
+  }
+  section {
+    margin: 10px 25px;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+    word-spacing: 0.3px;
+  }
+  br {
+    display: none;
+  }
+  p {
+    margin-bottom: 6px;
+  }
+
+  section li {
+    margin: 5px 20px 0px 5px;
+  }
+  ol {
+    margin-bottom: 10px;
+  }
+  section center {
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    margin: 2em 4em;
+  }
+  section {
+    margin: 2em;
   }
 }
