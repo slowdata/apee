@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 
 import styles from "./convocatoria.module.css"
 
@@ -19,22 +18,6 @@ const ConvocatoriaPage = ({ data }) => {
   )
 }
 
-export const query = graphql`
-  query {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            title
-            date
-          }
-          excerpt
-          timeToRead
-          html
-        }
-      }
-    }
-  }
-`
+
 
 export default ConvocatoriaPage
