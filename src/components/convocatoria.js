@@ -8,7 +8,6 @@ const ConvocatoriaPage = ({ data }) => {
   } = data
   const [first] = edges
   const { node } = first
-  console.log("..", node.html)
 
   return (
     <div className={styles.container}>
@@ -17,7 +16,5 @@ const ConvocatoriaPage = ({ data }) => {
     </div>
   )
 }
-
-
 
 export default ConvocatoriaPage

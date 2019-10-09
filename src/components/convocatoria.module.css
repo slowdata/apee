@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
-  margin: 20px 160px;
+  margin: 2rem 10rem;
   border: 1.5px solid green;
   border-radius: 5px;
+  max-width: 1000px;
 }
 
 .title {
@@ -26,27 +26,15 @@ section li {
   margin: 10px 30px;
 }
 
-@media print {
-  .title {
-    font-size: 2rem;
-  }
-  .container {
-    margin: 5px 5px;
-  }
-  section {
-    margin: 20px 50px;
-  }
-}
-
 @media (max-width: 768px) {
   .title {
     font-size: 2rem;
   }
   .container {
-    margin: 5px;
+    margin: 10px 10px;
   }
   section {
-    margin: 10px 25px;
+    margin: 30px 30px;
     font-size: 0.8rem;
     line-height: 1.25rem;
     word-spacing: 0.3px;
@@ -55,25 +43,50 @@ section li {
     display: none;
   }
   p {
-    margin-bottom: 6px;
+    margin-bottom: 15px;
   }
 
   section li {
     margin: 5px 20px 0px 5px;
   }
   ol {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   section center {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .container {
     margin: 2em 4em;
   }
   section {
     margin: 2em;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+}
+
+@media print {
+  .title {
+    font-size: 3rem;
+  }
+  .container {
+    margin: 20px 40px;
+    min-height: 1000px;
+  }
+  section {
+    margin: 80px 60px;
+    line-height: 30px;
+    word-spacing: 5px;
+  }
+  section center {
+    margin-top: 35px;
   }
 }
