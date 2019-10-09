@@ -1,5 +1,5 @@
 import React from "react"
 
-import Container from "../components/container"
+import Convocatoria from "../components/Convocatoria"
 
-export default () => <Container>Hello there from APEE Valejas</Container>
+export default () => <Convocatoria />
