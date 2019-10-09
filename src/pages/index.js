@@ -3,7 +3,7 @@ import {graphql} from 'gatsby'
 
 import Convocatoria from "../components/convocatoria"
 
-export default () => <Convocatoria data={data}/>
+export default ({data}) => <Convocatoria data={data}/>
 
 
 export const query = graphql`
