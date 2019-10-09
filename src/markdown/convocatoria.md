@@ -9,7 +9,7 @@ Convocam-se todos os Pais e Encarregados de Educação para a Assembleia Geral O
 
 Esta Assembleia Geral terá lugar no Refeitório da Escola EB1/JI de São Bento e terá a seguinte ordem de trabalhos:
 
-1. Aprovação do Relatório e Contas referentes aos anos 2018/2019;
+1. Aprovação do Relatório de Contas referente aos anos 2018/2019;
 
 2. Eleição dos novos Órgãos Sociais 2019/2020;
 

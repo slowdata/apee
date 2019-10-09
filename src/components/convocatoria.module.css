@@ -79,10 +79,10 @@ section li {
   }
   .container {
     margin: 20px 40px;
-    min-height: 1000px;
+    min-height: 1050px;
   }
   section {
-    margin: 80px 60px;
+    margin: 70px 50px;
     line-height: 30px;
     word-spacing: 5px;
   }
